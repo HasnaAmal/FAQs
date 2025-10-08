@@ -96,14 +96,16 @@ h2 {
     align-items: center;
     font-size: 26px;
     padding-bottom: 1px;
+    cursor:pointer;
 }
-
+.closed div{ 
+    cursor:pointer;
+}
 .active,
 .closed {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor:pointer;
 }
 
 .question1 p {
@@ -139,4 +141,5 @@ hr {
     align-items: center;
     font-size: 26px;
 }
+
 
